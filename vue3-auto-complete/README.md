@@ -20,6 +20,11 @@ npm install --save vuex@next
 npm install --save vue-router@next
 ```
 
+### For bootstrap
+```
+npm install --save bootstrap@next
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
