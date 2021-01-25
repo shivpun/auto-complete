@@ -1,7 +1,17 @@
 {
-  "name": "vue3-auto-complete",
+  "name": "@weboxapps/vue3-autocomplete",
   "version": "0.1.0",
-  "private": true,
+  "keywords": ["vue", "vuejs", "vue3", "autocomplete", "select", "search", "weboxapps"],
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shivpun/auto-complete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shivpun/auto-complete/issues"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -10,6 +20,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
     "core-js": "^3.6.5",
     "vue": "^3.0.5",
     "vue-router": "^4.0.3",
@@ -35,7 +46,7 @@
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^7.0.0-0",
     "geckodriver": "^1.20.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.3",
     "vue-jest": "^5.0.0-0",

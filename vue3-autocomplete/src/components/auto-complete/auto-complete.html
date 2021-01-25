@@ -1,0 +1,17 @@
+<input
+  ref="autocompleteRef"
+  class="form-control"
+  type="text"
+  :value="searchText"
+  @input="handleInput"
+  @focus="displayResults"
+  @blur="hideResults"
+/>
+<ul class="autocomplete-items-list" v-if="shouldShowResults">
+  <li class="autocomplete-result"
+    v-for="(item, index) in filteredResults" :key="`item-${index}`"
+    @mousedown.prevent
+    @click.prevent="clickItem(item)">
+    {{ displayItem(item) }}
+  </li>
+</ul>
