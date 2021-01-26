@@ -16,7 +16,7 @@ export default {
     },
     results: {
       type: Array,
-      default: () => []
+      default: () => ['Punit', 'Pooja', { id: 2, name: 'Poonam' }]
     },
     displayItem: {
       type: Function,
