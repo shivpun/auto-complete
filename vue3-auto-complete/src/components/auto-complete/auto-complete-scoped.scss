@@ -1,0 +1,34 @@
+.form-control {
+  border: 1px solid #dee2e6;
+}
+.autocomplete-items-list {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
+  visibility: visible;
+  pointer-events: auto;
+  top: 100%;
+  list-style-type: none;
+  margin: 0;
+  margin-left: 0px !important;
+  border: 1px solid rgba(0,0,0,.12);
+  padding: 0;
+  box-sizing: border-box;
+  max-height: 296px;
+  overflow-y: auto;
+  background: #fff;
+  box-shadow: 0 2px 2px rgba(0,0,0,.16);
+  border-top-color: transparent;
+}
+.autocomplete-result {
+  cursor: default;
+  padding-left: 12px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.autocomplete-result:hover, .autocomplete-result[aria-selected=true] {
+  background-color: rgba(0,0,0,.06);
+} 
