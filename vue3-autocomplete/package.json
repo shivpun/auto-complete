@@ -1,7 +1,17 @@
 {
-  "name": "vue3-auto-complete",
+  "name": "@weboxapps/vue3-autocomplete",
   "version": "0.1.0",
-  "private": true,
+  "keywords": ["vue", "vuejs", "vue3", "autocomplete", "select", "search", "weboxapps"],
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shivpun/auto-complete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shivpun/auto-complete/issues"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
